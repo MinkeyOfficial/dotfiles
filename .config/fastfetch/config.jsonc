@@ -1,0 +1,98 @@
+{
+    "display": {
+        "separator": " "
+    },
+    "logo": {
+        "source": "$HOME/.config/fastfetch/pngs/niri.png",
+        "height": 16,
+        "width": 36,
+        "padding": {
+            "top": 1,
+        }
+    },
+    "modules": [
+        {
+            "type": "custom",
+            "format": "\u001b[35m  コンピューター"
+        },
+        {
+            "type": "custom",
+            "format": "┌──────────────────────────────────────────────┐"
+        },
+        {
+            "type": "os",
+            "key": " ╭─ ",
+            "keyColor": "green"
+        },
+        {
+            "type": "kernel",
+            "key": " ├─ ",
+            "format": "{1} {2}",
+            "keyColor": "green"
+        },
+        {
+            "type": "packages",
+            "key": " ├─󰏖 ",
+            "keyColor": "green"
+        },
+
+        {
+            "type": "shell",
+            "key": " ╰─ ",
+            "keyColor": "green"
+        },
+
+        "break",
+        {
+            "type": "wm",
+            "key": " ╭─ ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "terminal",
+            "key": " ├─ ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "terminalfont",
+            "key": " ├─ ",
+            "keyColor": "yellow"
+        },
+        {
+            "type": "lm",
+            "key": " ╰─󰧨 ",
+            "keyColor": "yellow"
+        },
+
+
+
+        "break",
+
+        {
+            "type": "cpu",
+            "key": " ╭─󰻠 ",
+            "keyColor": "blue"
+        },
+        {
+            "type": "gpu",
+            "key": " ├─󰍛 ",
+            "keyColor": "blue"
+        },
+
+        {
+            "type": "uptime",
+            "key": " ╰─󰅐 ",
+            "keyColor": "blue"
+        },
+        {
+            "type": "custom",
+            "format": "└──────────────────────────────────────────────┘"
+        },
+        {
+            "type": "colors",
+            "paddingLeft": 2,
+            "symbol": "circle"
+        },
+        "break",
+    ]
+}

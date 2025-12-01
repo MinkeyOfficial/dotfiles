@@ -1,0 +1,13 @@
+## ARCH LINUX CHEAT SHEET ##
+# PACMAN (Package Manager)
+sudo pacman -Syu  # Full system upgrade
+sudo pacman -S  # Install package
+sudo pacman -Rs  # Remove package and dependencies
+
+# SYSTEMD (Services)
+sudo systemctl start  # Start service
+systemctl status  # Check status
+
+# FILE SYSTEM
+ls -l  # List long format
+chown  # Change owner
